@@ -72,7 +72,7 @@
 			<version>1</version>
 		</dependency>
 				
-		<!-- Servlet -->
+		<!-- Servlet 2.x 버전에서는 톰캣9.x버전이 작동하지 않음. -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -180,7 +180,7 @@
 		 <artifactId>spring-security-taglibs</artifactId>
 		 <version>${spring.security.version}</version>
 		</dependency>
-		<!-- quartz 라이브러러리 배치작업(일괄처리) -->
+		<!-- quartz 라이브러러리 배치(일괄처리)작업 -->
 		<dependency>
 		    <groupId>org.quartz-scheduler</groupId>
 		    <artifactId>quartz</artifactId>
